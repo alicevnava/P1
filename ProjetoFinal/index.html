@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tantas Leituras</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- titulo -->
+  <div class="container">
+    <h1>Tantas Leituras</h1>
+
+    <!-- tarefa -->
+    <div class="registro">
+      <label for="registro">Livro:</label>
+      <input type="text" id="registro" placeholder="Qual livro você está lendo?">
+    </div>
+
+    <!-- cronometro -->
+    <div class="timer">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+
+    <!-- ações -->
+    <div class="controls">
+      <button id="start">Ler</button>
+      <button id="pause">Refletir</button>
+      <button id="reset">Reler</button>
+      <button id="skip">Virar a página</button>
+    </div>
+
+    <!-- registro -->
+    <div class="diario">
+      <h2>Diário de Leitura</h2>
+      <ul id="diario"></ul>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
