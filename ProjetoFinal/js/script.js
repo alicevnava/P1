@@ -80,7 +80,7 @@ function iniciarTimer(duracao) {
     }, 1000);
 }
 
-// Avança para a próxima etapa no ciclo, registrando ao final do ciclo completo
+// Avança para a próxima etapa no ciclo
 function pularEtapa() {
     clearInterval(timer);
 
