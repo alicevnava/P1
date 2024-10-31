@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color:#e9a3a3; /* Cor inicial para Pomodoro */
+  background-color:#3cb9a2ca; 
   padding: 20px;
   border-radius: 10px;
   text-align: center;
