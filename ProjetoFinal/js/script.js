@@ -2,7 +2,7 @@
 const duracaoLendo = 25 * 60;
 const duracaoRefletir = 5 * 60;
 const duracaoReler = 15 * 60;
-let tempoRestante = duracaoLendo; // Inicializa com 25 minutos
+let tempoRestante = duracaoLendo;
 let timer;
 let ciclo = ["Lendo", "Refletir", "Lendo", "Refletir", "Lendo", "Refletir", "Lendo", "Reler"];
 let etapaAtual = 0;
